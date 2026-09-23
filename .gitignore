@@ -1,0 +1,19 @@
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Editor & IDE
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# PHP & Local Config
+config/config.local.php
+*.log
+error_log
+
+# Uploads (Keep the directory structure, ignore actual uploads)
+public/uploads/*
+!public/uploads/.gitkeep
